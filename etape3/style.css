@@ -1,0 +1,46 @@
+/* selection par id (cours CSS slide 25) */
+#table_container{
+    width : 60%;
+    /* pour centrer (cours CSS slide 58) */
+    margin:30px auto;
+    padding : 20px 20px 50px 20px;
+    font-family:Calibri,Arial,sans-serif;
+    font-size:13px;
+    box-shadow:0 2px 8px rgba(0,0 ,0,0.3);
+}
+table{
+    width:100%;
+    /* fusionner les bordures (cours CSS slide 49) */
+    border-collapse: collapse;
+}
+th{
+    background-color:#0b7dbf;
+    color :white;
+    font-weight:bold;
+    padding:8px;
+    border-right:1px solid #ddd;
+
+}
+td{
+    padding:8px;
+    border-bottom:1px solid #ddd ;
+    border-right:1px solid #ddd;
+}
+
+th.col_text{
+    text-align:center;
+}
+
+/* selection par classe (cours CSS slide 27) */
+.col_number{
+    text-align:center;
+    width:60px;
+}
+
+.col_text{
+    text-align:left;
+}
+.col_chkbox{
+    text-align:center;
+    width:60px;
+}
